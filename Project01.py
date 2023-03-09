@@ -1,6 +1,6 @@
 """
 @author John Droder, Adonte Mays
-@description Project #1 for CS173
+@description Class Project #1
 @date 2023/1/20
 @updated 2023/1/20
 """
@@ -20,21 +20,4 @@ def sortThroughText(input_txt):
     unique_words.sort() # sorts the list of unique words alphabetically
     for word in unique_words: # goes through each word, and prints it out
         print(word) # prints current word in for-loop
-
-    # Part 2 - find where the words appear:
-    print("Enter a word: ") # question that prompts the user to enter a search query for a word 
-    user_input = input() # gets the input from the user
-    splitted_sentence = input_txt.strip().split(".") # strips (removes white space), and splits on a period, so we have only the sentences
-    if user_input.lower() not in unique_words: # if the user input (in lower case) is not in the unique words list, the word given is not in the original text. 
-        print("That word is not located in any sentence.") # prints it to inform the user that the word is non-existant in the text.
-    else: # otherwise...
-        print(user_input + " appears in:") # informs the user that something is found, and it is now searching...
-        for sentence in splitted_sentence: # for loop to find out where the word is found in the sentences
-            if user_input.lower() in sentence.lower(): # if the user input is in the sentence...
-                print(str(splitted_sentence.index(sentence)+1) + ": " + sentence) # print the index (plus 1) of the sentence, and then print the sentence.
-
-    
-file = open("input.txt", "r") # tells python to open the input.txt file as type 'r', meaning we don't need to write to it, only read it.
-input_text = file.read() # python reads the file, stores it in input_text
-sortThroughText(input_text) # calls the function above on the read python file
-file.close() # closes the file when it is done
+#End of code due to this being a school project(if you'd like the entire file let me know!).
