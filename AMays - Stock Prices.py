@@ -2,6 +2,7 @@
 Purpose: Create a program for plotting stock prices
 Authors: Adonte Mays
 Date: 9/17/2022
+Updated:
 """
 import turtle
 
