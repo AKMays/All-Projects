@@ -9,7 +9,6 @@ Updated:
 
 #include <iostream>
 using namespace std;
-
 // This program outputs which lights are on during the time of delivery
 
 bool UPS(int t1_on, int t1_off, int t2_on, int t2_off, int t_ups);
