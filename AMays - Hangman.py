@@ -55,3 +55,5 @@ def hangman(word, filled_word, guesses, letters):
     return 0
 
 hangman("Denison", "", 10, string.ascii_lowercase)
+
+# email - mays_a1@denison.edu
