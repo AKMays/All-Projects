@@ -30,4 +30,4 @@ int main()
     cout << "Enter on time for t_ups." << endl; //t_ups time
     cin >> t_ups; // give t_ups value
    
-  //End of code due to school reasons (if you'd like to see the full code please let me know!)
+  //End of code due to school reasons (if you'd like to see the full code please let me know! email - mays_a1@denison.edu)
