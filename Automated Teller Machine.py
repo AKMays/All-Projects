@@ -3,7 +3,7 @@ Purpose: This program is a simulation of an ATM that allows users to deposit, wi
 bank accounts. It uses object-oriented programming concepts to create an Account class and an ATM class, and includes features like 
 generating account numbers and PINs randomly, and error handling for invalid user input. The program is designed to be realistic and 
 secure, and to provide a convenient way for users to perform common banking transactions.
-Author(s): Adonte Mays 
+Author(s): Adonte Mays - mays_a1@denison.edu
 Date: 2022-03-11
 Updated: 2023-28-04
 """
