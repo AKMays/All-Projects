@@ -20,4 +20,4 @@ def sortThroughText(input_txt):
     unique_words.sort() # sorts the list of unique words alphabetically
     for word in unique_words: # goes through each word, and prints it out
         print(word) # prints current word in for-loop
-#End of code due to this being a school project(if you'd like the entire file let me know!).
+#End of code due to this being a school project(if you'd like the entire file let me know! email - mays_a1@denison.edu).
