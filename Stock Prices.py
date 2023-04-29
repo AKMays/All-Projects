@@ -31,3 +31,5 @@ for today in prices:
             stock_line.goto(x, today)
     x += 1
     previous_price = today
+
+   #email - mays_a1@denison.edu
